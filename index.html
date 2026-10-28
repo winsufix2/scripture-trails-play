@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#172c46">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="Библейские расследования и история Свидетелей Иеговы. Два маршрута, один дневник открытий.">
+  <title>По следам Писания — игра</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="header">
+    <a href="#home" class="brand" aria-label="По следам Писания, главная"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 8q9-4 15 1 6-5 15-1v25q-9-4-15 0-6-4-15 0Z"/><path d="M20 9v24M10 15h5m-5 5h5m10-5h5m-5 5h5"/></svg><span>По следам<br><strong>Писания</strong></span></a>
+    <nav aria-label="Главная навигация"><a href="#home" data-nav="home">Играть</a><a href="#journal" data-nav="journal">Мои ответы</a><a href="#sources" data-nav="sources">Как играть</a></nav>
+    <span id="header-score" hidden></span>
+  </header>
+  <div id="storage-warning" class="storage-warning" hidden>Браузер не сохраняет данные. Экспортируйте прогресс из дневника перед закрытием.</div>
+  <main id="main" tabindex="-1"></main>
+  <footer>По следам Писания · Личная учебная игра</footer>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <noscript>Для игры необходимо включить JavaScript в браузере.</noscript>
+</body>
+</html>
